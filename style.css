@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+.passive {
+	width: 140px;
+	height: 140px;
+	margin: 30px auto;
+	border-radius: 10px;
+	transition: border-radius 1s;
+	background-color: lightBlue;
+}
+
+.property {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.property #clipboard {
+	padding: 10px 20px;
+}
